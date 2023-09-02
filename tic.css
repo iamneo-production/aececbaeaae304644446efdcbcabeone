@@ -50,5 +50,19 @@
 
 .result-container{
     background-color: white;
-    widt
+    width: 200px;
+    text-align: center;
+}
+
+#reset{
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    border-radius: 2px;
+}
+
+#reset:hover{
+    color: white;
+    background-color: black;
 }

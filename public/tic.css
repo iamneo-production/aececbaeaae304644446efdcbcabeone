@@ -1,4 +1,4 @@
-#header {
+h1 {
 	color: orangered;
 	margin-bottom: -5px;
 }
@@ -103,4 +103,11 @@ p {
 /* Main Container */
 #main {
 	text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	color: dodgerblue;
 }

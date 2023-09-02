@@ -1,5 +1,7 @@
 #header {
-	color: orangered;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px;
+	font-size: 50px;
 	margin-bottom: -5px;
 }
 p {
@@ -7,6 +9,7 @@ p {
 }
 .box {
 	display: flex;
+	margin: 35px;
 	flex-direction: column;
 	align-items: center;
 }
@@ -14,13 +17,16 @@ p {
 	display: flex;
 }
 .btn {
-	border: none;
-	width: 80px;
-	height: 80px;
+	border: 2px solid gray;
+	width: 75px;
+	height: 75px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 24px;
+	border-radius: 8px;
+	font-size: 50px;
+	font-weight: 500;
+	color: black;
 	text-align: center;
 	cursor: pointer;
 }
@@ -28,53 +34,6 @@ p {
 	outline: none;
 }
 /* 3*3 Grid */
-#b1{
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-}
-
-#b2 {
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b3 {
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b4 {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-right: 1px solid gray;
-}
-	
-#b5 {
-	border: 1px solid gray;
-}
-
-#b6 {
-	border-top: 1px solid gray;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b7 {
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
-}
-
-#b8 {
-	border-top: 1px solid gray;
-	border-right: 1px solid gray;
-	border-left: 1px solid gray;
-}
-
-#b9 {
-	border-top: 1px solid gray;
-	border-left: 1px solid gray;
-}
 /* Reset Button */
 #reset {
 	box-sizing: border-box;
